@@ -31,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: DiscountApp-Windows-Exe
-        path: dist/app.exe
+        path: dist/windows_app_v2.exe
