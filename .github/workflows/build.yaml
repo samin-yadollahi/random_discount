@@ -25,7 +25,7 @@ jobs:
 
     - name: Build Executable with PyInstaller
       run: |
-        pyinstaller --noconsole --onefile --hidden-import openpyxl --hidden-import pandas app.py
+        pyinstaller --noconsole --onefile --hidden-import openpyxl --hidden-import pandas windows_app_v2.py
 
     - name: Upload Executable Artifact
       uses: actions/upload-artifact@v4
